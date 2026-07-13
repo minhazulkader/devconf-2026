@@ -37,3 +37,38 @@ a {
   border: none;
   cursor: pointer;
 }
+
+header h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/banner.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10%; */
+  margin-left: 350px;
+  margin-top: 280px;
+}
