@@ -39,8 +39,8 @@ a {
 }
 
 header h1 {
-    font-size: 5rem;
-    font-weight: 800;
+  font-size: 5rem;
+  font-weight: 800;
 }
 
 header {
@@ -105,4 +105,151 @@ section {
 
 .info {
   padding: 12px;
+}
+
+.secure-top {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+.top-para {
+  color: #575757;
+  margin-bottom: 40px;
+}
+
+.pricing-card {
+  border: 1px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card-content {
+  width: 330px;
+  height: 420px;
+  border-radius: 15px;
+  border: 1px solid #8e8e8f75;
+}
+
+.card-content ul {
+  font-size: 0.8rem;
+  padding: 10px;
+  font-size: 0.8rem;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.card-content ul li::marker {
+  color: rgb(0, 123, 255);
+  font-size: 1.2em;
+}
+
+.card-content ul li {
+  margin-bottom: 10px;
+}
+
+.pricing-card hr {
+  border: none;
+  height: 1px;
+  width: 80%;
+  margin-left: 30px;
+  background: rgba(138, 135, 135, 0.128);
+}
+
+.pricing-card button {
+  width: 300px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  background: #ffffff;
+  color: #2563eb;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.pricing-card .pricing-btn {
+  width: 300px;
+  padding: 15px;
+  border-radius: 13px;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.para {
+  color: #888888;
+  font-size: 0.8rem;
+  margin-left: 30px;
+  margin-top: 18px;
+}
+
+.price {
+  margin-left: 30px;
+}
+
+.second-price {
+  width: 330px;
+  height: 420px;
+  border-radius: 12px;
+  background-color: #0d1b2a;
+}
+
+.second-price ul li {
+  margin-bottom: 10px;
+}
+
+.second-price ul li::marker {
+  color: rgb(0, 123, 255);
+  font-size: 1.2em;
+}
+
+.second-price ul {
+  font-size: 0.8rem;
+  padding: 10px;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.second-price hr {
+  border: none;
+  height: 1px;
+  width: 80%;
+  margin-left: 30px;
+  background: rgba(138, 135, 135, 0.128);
+}
+
+.price-two {
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.second-para {
+  color: rgb(0, 123, 255);
+  margin-left: 30px;
+  margin-top: 18px;
+  font-size: 0.8rem;
+}
+
+.second-person {
+  font-size: 0.7rem;
+  color: #929292bf;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.top-para {
+  font-size: 0.9rem;
+}
+
+.person {
+  font-size: 0.7rem;
+  color: #929292bf;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
