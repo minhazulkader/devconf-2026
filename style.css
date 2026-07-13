@@ -336,3 +336,49 @@ section {
   line-height: 1.8;
   font-size: 15px;
 }
+
+
+.schedule{
+    padding:90px 8%;
+    background:#f9fafb;
+}
+
+.schedule-box{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.schedule-item{
+    display:flex;
+    gap:30px;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    padding:25px 30px;
+    margin-bottom:20px;
+    transition:.3s ease;
+}
+
+.schedule-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    border-color:#2563eb;
+}
+
+.time{
+    min-width:120px;
+    font-size:20px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+.details h3{
+    font-size:22px;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.details p{
+    color:#6b7280;
+    line-height:1.7;
+}
