@@ -253,3 +253,86 @@ section {
   margin-left: 30px;
   margin-bottom: 10px;
 }
+
+/* ===========================
+   WHY ATTEND SECTION
+=========================== */
+
+.why-attend {
+  padding: 90px 8%;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.section-title p {
+  max-width: 650px;
+  margin: auto;
+  color: #6b7280;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.attend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.attend-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: 0.35s ease;
+}
+
+.attend-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  border-color: #2563eb;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: #eef4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon i {
+  font-size: 32px;
+  color: #2563eb;
+}
+
+.attend-card h3 {
+  font-size: 22px;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.attend-card p {
+  color: #6b7280;
+  line-height: 1.8;
+  font-size: 15px;
+}
